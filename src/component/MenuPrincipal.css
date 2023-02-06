@@ -1,0 +1,50 @@
+.App {
+    text-align: center;
+}
+
+.App-container {
+    background-image: url('../2.jpeg');
+    /*background-color: rgba(203, 185, 255, 0.562);*/
+    background-size: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: rgba(12, 8, 253, 0.562);
+    margin-top: 0%;
+}
+
+.primerDiv{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.primerDiv div{
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 40%;
+    height: 10%;
+}
+
+.imagenes{
+    width: 17em;
+    height: 10em;
+    box-shadow: 0.2em 0.4em 0.6em black;
+    border-radius: 5%;
+}
+
+.segundoDiv{
+    margin-top: 25%;
+}
+
+.segundoDiv p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-shadow: 0.1em 0.2em 0.4em rgba(0, 0, 0, 0.733);
+}
+
+.imagen{
+    width: 60%;;
+}
