@@ -44,7 +44,7 @@ function MenuPrincipal() {
                     </div>
                 </div>
                 <div className='segundoDiv' style={{marginTop:"3%", marginLeft:"5%", marginRight:"5%"}}>
-                    <p>CRECER está dirigido por la Docente Paola Dayana Garcia Tremont; quien cuenta con 3 años de experiencia como docente de aula en Institucion Educativa FE y ALEGRIA, y 4 años de labor independiente en Sabaneta Antioquia.</p>
+                    <p>CRECER está dirigido por la Docente Paola Dayana Garcia Tremont; quien cuenta con 3 años de experiencia como docente de aula en Institucion Educativa FE y ALEGRIA, y 4 años de labor independiente en Sabaneta Antioquia. Si deseás contactarme lo puedes hacer dando <a href='https://api.whatsapp.com/send/?phone=573146078016&text=Hola%21+Estoy+interesado(a)+en+las+clases+de+refuerzo+me+puedes+dar+mas+informacion+Gracias!!&app_absent=0' target='_blank'>Click Aqui</a></p>
                 </div>
             </div>
         </div>

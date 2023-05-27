@@ -72,6 +72,11 @@
     text-shadow: 0.1em 0.2em 0.4em rgba(0, 0, 0, 0.733);
 }
 
+.segundoDiv p a{
+    color: blue;
+    text-decoration: none;
+}
+
 .imagen{
     margin-left: 20%;
     width: 60%;;
