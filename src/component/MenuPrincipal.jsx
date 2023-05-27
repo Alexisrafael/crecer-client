@@ -14,26 +14,32 @@ function MenuPrincipal() {
                 <div className='primerDiv'>
                     <div className='correr'>
 
-                        <img className='imagen' src={image} alt="" />
-                       
+                        {/* <img className='imagen' src={image} alt="" /> */}
+                        <div>
+                            <label> <b>Quien soy?</b> </label>
+                        </div>
+                    
                     </div>
                     <div className='segundoDiv' >
                         <p>Especialista en las áreas de Matemáticas y Lenguaje. Ahora contamos con las áreas de Inglés y Dibujo en los grados de primaria.</p>
                     </div>
                     <div className='correr1'>
 
-                        <img className='imagen' src={image} alt="" />
-                       
+                        {/* <img className='imagen' src={image} alt="" /> */}
+                        <div>
+                            <label> <b>Quien soy?</b> </label>
+                        </div>
+                    
                     </div>
                     <div className='segundoDiv' style={{ marginRight:"2%"}}>
                         <p>Dedicadas y enfocadas del disfrute en el proceso de apredizaje, garantizando así que los niños se sientan cómodos y con ganas de seguir aprendiendo.</p>
                     </div>
                 </div>
                 <div className='primerDiv'>
-                    <div>
+                    <div >
                         <img className='imagenes' src={image2} alt="jhjh" />
                     </div>
-                    <div>
+                    <div style={{marginLeft:"2%"}}>
                         <img className='imagenes' src={image3} alt="khhhh" />
                     </div>
                 </div>
