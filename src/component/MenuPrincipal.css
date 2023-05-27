@@ -99,6 +99,10 @@
     text-decoration: none;
 }
 
+.segundoDiv p li{
+    color: rgb(243, 60, 124);
+}
+
 .imagen{
     margin-left: 20%;
     width: 60%;;

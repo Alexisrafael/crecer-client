@@ -1,13 +1,12 @@
 import './MenuPrincipal.css';
 import Nav from './Nav';
-import Nav2 from './Nav2';
-import image from '../somos2.png'
 import image2 from '../6.jpeg'
 import image3 from '../7.jpeg'
 import Titulo from '../titulo.jpeg'
+import Libros from '../libro2.png'
 
 function MenuPrincipal() {
-    const referencia = "https://api.whatsapp.com/send/?phone=573146078016&text=Hola%21+Estoy+interesado(a)+en+las+clases+de+refuerzo+me+puedes+dar+mas+informacion+Gracias!!&app_absent=0"
+
     return (
         <div className="App">
             {<Nav/>}
@@ -38,8 +37,15 @@ function MenuPrincipal() {
                     </div>
                 </div>
                 <div className='primerDiv'>
-                    <div className='segundoDiv' style={{ marginTop:"1%", marginRight:"1%"}}><p>Dedicadas y enfocadas del disfrute en el proceso de apredizaje, garantizando así que los niños se sientan cómodos y con ganas de seguir aprendiendo.</p></div>
-                    <div className='segundoDiv' style={{ marginTop:"1%", marginRight:"1%"}}><p>Dedicadas y enfocadas del disfrute en el proceso de apredizaje, garantizando así que los niños se sientan cómodos y con ganas de seguir aprendiendo.</p></div>
+                    <div className='segundoDiv' style={{ marginTop: "1%", marginRight: "1%" }}>
+                        <p> Dedicada y enfocada en el disfrute del proceso de apredizaje, en los niños cursantes de transición hasta 5° grado de primaria; garantizando así, que los niños se sientan cómodos y con ganas de seguir aprendiendo.
+                            <img src={Libros} alt="" style={{ width: "1rem", height: "1rem" }} /> <br /> <br /> Se ofrecen los siguientes servicios:<br /><br />
+                            <li>Aprendizaje Inicial (Preescolar).</li>
+                            <li>Acompañamiento Académico.</li>
+                            <li>Nivelación Académica (Matemáticas y leguaje).</li>
+                        </p>
+                    </div>
+                    {/* <div className='segundoDiv' style={{ marginTop:"1%", marginRight:"1%"}}><p>Dedicadas y enfocadas del disfrute en el proceso de apredizaje, garantizando así que los niños se sientan cómodos y con ganas de seguir aprendiendo.</p></div> */}
                 </div>
                 <div className='primerDiv'>
                     <div >
@@ -50,7 +56,7 @@ function MenuPrincipal() {
                     </div>
                 </div>
                 <div className='segundoDiv' style={{marginTop:"3%", marginLeft:"5%", marginRight:"5%", width:"90%"}}>
-                    <p>CRECER está dirigido por la Docente Paola Dayana Garcia Tremont; quien cuenta con 3 años de experiencia como docente de aula en Institucion Educativa FE y ALEGRIA, y 4 años de labor independiente en Sabaneta Antioquia. Si deseás contactarme lo puedes hacer dando <a href="https://api.whatsapp.com/send/?phone=573146078016&text=Hola%21+Estoy+interesado(a)+en+las+clases+de+refuerzo.+Me+puedes+brindar+más+información,+por+favor.+Gracias!&app_absent=0" target='_blank'>Click Aqui</a></p>
+                    <p>CRECER está dirigido por la Docente Paola Dayana Garcia Tremont; quien cuenta con 3 años de experiencia como docente de aula en Institucion Educativa FE y ALEGRIA, y 4 años de labor independiente en Sabaneta Antioquia. Si deseas contactarme lo puedes hacer dando <a href="https://api.whatsapp.com/send/?phone=573146078016&text=Hola%21+Estoy+interesado(a)+en+las+clases+de+refuerzo.+Me+puedes+brindar+más+información,+por+favor.+Gracias!&app_absent=0" target='_blank'>Click Aqui</a></p>
                 </div>
             </div>
         </div>
