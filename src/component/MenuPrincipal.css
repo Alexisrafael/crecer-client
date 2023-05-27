@@ -37,7 +37,7 @@
 }
 
 .correr1 div{
-        margin-left: -35%;
+        margin-left: -55%;
         width: 200%;
         padding: 15%;
         background-image: url('../pngwing.com.png');
@@ -76,14 +76,16 @@
     width: 100%;
     margin-top: 10%;
     margin-bottom: 5%;
-    margin-left: 3%;
+    margin-left: 0%;
     padding: 2%;
     position: relative;
 }
 
 .tercerDiv div img{
-    width: 25rem;
-    height: 18rem;
+    width: 15rem;
+    height: 20rem;
+    box-shadow: 0.2em 0.4em 0.6em rgba(50, 50, 50, 0.801), 0.3em 0.5em 0.7em rgba(50, 50, 50, 0.809);
+    border-radius: 8%;
 }
 
 .segundoDiv p{
@@ -169,13 +171,18 @@
     text-shadow: 0.1em 0.2em 0.4em rgb(54, 48, 48),  0.15em 0.25em 0.45em rgb(66, 59, 59);
 }
 
-    .tercerDiv div{
+    .tercerDiv{
         margin-left: 2%;
+    }
+
+    .tercerDiv div{
+        margin-left: 3%;
         margin-right: 5%;
     }
     .tercerDiv div img{
-        width: 20rem;
-        height: 15rem;
+        width: 15rem;
+        height: 20rem;
+        box-shadow: 0.2em 0.4em 0.6em rgba(50, 50, 50, 0.801), 0.3em 0.5em 0.7em rgba(50, 50, 50, 0.809);
     }
 
     .imagenes{

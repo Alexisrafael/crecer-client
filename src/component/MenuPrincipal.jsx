@@ -4,6 +4,7 @@ import Nav2 from './Nav2';
 import image from '../somos2.png'
 import image2 from '../6.jpeg'
 import image3 from '../7.jpeg'
+import Titulo from '../titulo.jpeg'
 
 function MenuPrincipal() {
     const referencia = "https://api.whatsapp.com/send/?phone=573146078016&text=Hola%21+Estoy+interesado(a)+en+las+clases+de+refuerzo+me+puedes+dar+mas+informacion+Gracias!!&app_absent=0"
@@ -18,7 +19,7 @@ function MenuPrincipal() {
                         </div>
                     </div>
                     <div className='segundoDiv' style={{ }}>
-                        <p>Como Licenciada en Lengua y Literatura, graduada en la Universidad Pedagógica Experimental Libertador (UPEL), puedo afirmar con confianza que poseo una sólida formación académica y una profunda pasión por el estudio de la lengua y la literatura.
+                        <p>Licenciada en Lengua y Literatura, graduada en la Universidad Pedagógica Experimental Libertador (UPEL) Venezuela Edo. Falcón, puedo afirmar con confianza que poseo una sólida formación académica y una profunda pasión por el estudio de la lengua y la literatura.
 
                         Estoy comprometida con proporcionar una educación de calidad y ayudar a mis estudiantes a desarrollar habilidades de lectura crítica, escritura efectiva y apreciación de la literatura.
 
@@ -32,7 +33,7 @@ function MenuPrincipal() {
                     <div className='tercerDiv' style={{ }}>
                         {/* <p>Dedicadas y enfocadas del disfrute en el proceso de apredizaje, garantizando así que los niños se sientan cómodos y con ganas de seguir aprendiendo.</p>*/}
                         <div style={{ marginLeft: "5%"}}>
-                            <img src={image} alt="Titulo" /> 
+                            <img src={Titulo} alt="Titulo" /> 
                         </div>
                     </div>
                 </div>
