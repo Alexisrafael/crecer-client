@@ -9,7 +9,7 @@ function Nav() {
         <div>
             <Link to='/'><img className='imglogo' src={logo} alt="" /></Link>
         </div>
-        <div className='complementos'>
+        {/* <div className='complementos'>
             <div>
                 <p>Informcion de Horarios</p>
             </div>
@@ -20,7 +20,7 @@ function Nav() {
               <input type="text" placeholder='buscar'/>
               <button >Buscar</button>
             </div>
-        </div>
+        </div> */}
       </nav>
     </div>
   );
