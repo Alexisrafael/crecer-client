@@ -24,14 +24,14 @@ function MenuPrincipal() {
                             <label> <b>Quien soy?</b> </label>
                         </div>
                     </div>
-                    <div className='segundoDiv' style={{ marginLeft: "10%" }}>
+                    <div className='segundoDiv margen-div' style={{}}>
                         <p>Licenciada en Lengua y Literatura, graduada en la Universidad Pedagógica Experimental Libertador (UPEL) Venezuela Edo. Falcón. Puedo afirmar con confianza que poseo una sólida formación académica y una profunda pasión por el estudio de la lengua y la literatura.
 
                         Estoy comprometida con proporcionar una educación de calidad y ayudar a mis estudiantes a desarrollar habilidades de lectura crítica, escritura efectiva y apreciación de la literatura.
 
                         Además de mi formación académica, cuento con experiencia práctica en la enseñanza de la lengua y la literatura a diversos grupos de estudiantes. Mi enfoque pedagógico se basa en fomentar un ambiente de aprendizaje participativo, donde los estudiantes se sientan motivados y puedan expresarse libremente. Estoy comprometida con brindarles las herramientas necesarias para que desarrollen su potencial y logren sus metas académicas.</p>
                     </div>
-                    <div className='correr1'style={{ marginLeft: "-10%" }}>
+                    <div className='correr1 margen-title' style={{}}>
                         <div >
                             <label> <b>Quien soy?</b> </label>
                         </div>
