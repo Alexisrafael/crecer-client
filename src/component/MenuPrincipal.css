@@ -24,6 +24,13 @@
     justify-content: center;
 }
 
+.primerDiv2{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
 .correr{
     display: none;
 }
@@ -89,9 +96,21 @@
 }
 
 .segundoDiv p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
-    text-shadow: 0.1em 0.2em 0.4em rgba(0, 0, 0, 0.733);
+    /*font-family: "Roboto Condensed", serif;*/
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.879);
+    text-shadow: 0px 2px 4px rgb(111, 111, 111);
+}
+
+.gradient-text {
+    font-weight: 500;
+    text-align: center;
+    background: linear-gradient(90deg, #000000, #fa0404, #2bff06);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .segundoDiv p a{
@@ -125,6 +144,15 @@
         align-content: center;
         justify-content: center;
         flex-direction: column;
+        width: 90%;
+    }
+
+    .primerDiv2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
         width: 90%;
     }
 
@@ -166,14 +194,14 @@
     .segundoDiv{
         margin-top: 1%;
         margin-bottom: 1%;
-        margin-right: 2%
+        margin-right: 2%;
     }
 
     .segundoDiv p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(0, 0, 0);
-    text-shadow: 0.1em 0.2em 0.4em rgb(54, 48, 48),  0.15em 0.25em 0.45em rgb(66, 59, 59);
-}
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+        text-shadow: 0px 2px 4px rgb(111, 111, 111);
+    }
 
     .tercerDiv{
         margin-left: 2%;
@@ -196,4 +224,10 @@
         border-radius: 5%;
         margin-bottom: 3%;
     }
+}
+
+.img-data {
+    pointer-events: none; /* Desactiva todos los eventos del mouse */
+    user-select: none;    /* Impide la selección de texto */
+    -webkit-user-drag: none; /* Desactiva el arrastre en navegadores basados en WebKit */
 }
