@@ -18,7 +18,7 @@ function MenuPrincipal() {
                         </div>
                     </div>
                     <div className='segundoDiv' style={{ }}>
-                        <p>Licenciada en Lengua y Literatura, graduada en la Universidad Pedagógica Experimental Libertador (UPEL) Venezuela Edo. Falcón, puedo afirmar con confianza que poseo una sólida formación académica y una profunda pasión por el estudio de la lengua y la literatura.
+                        <p>Licenciada en Lengua y Literatura, graduada en la Universidad Pedagógica Experimental Libertador (UPEL) Venezuela Edo. Falcón. Puedo afirmar con confianza que poseo una sólida formación académica y una profunda pasión por el estudio de la lengua y la literatura.
 
                         Estoy comprometida con proporcionar una educación de calidad y ayudar a mis estudiantes a desarrollar habilidades de lectura crítica, escritura efectiva y apreciación de la literatura.
 
