@@ -2,7 +2,7 @@ import {Routes, Route} from 'react-router-dom'
 import Landing from './component/Landing'
 import MenuPrincipal from './component/MenuPrincipal'
 import './App.css';
-import { useEffect } from 'react';
+import MasInformacion from './component/MasInformacion';
 
 function App() {
 
@@ -11,6 +11,7 @@ function App() {
       <Routes>
         <Route exact path= '/' element={<Landing/>}></Route>
         <Route exact path= '/menu' element={<MenuPrincipal/>}></Route>
+        <Route exact path='/info' element={<MasInformacion/>}></Route>
       </Routes>
     </div>
   );

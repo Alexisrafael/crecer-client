@@ -48,7 +48,7 @@ function MenuPrincipal() {
                             <img src={Libros} alt="" style={{ width: "1rem", height: "1rem" }} /> <br /> <br /> Se ofrecen los siguientes servicios:<br /><br />
                             <li>Aprendizaje Inicial (Preescolar).</li>
                             <li>Acompañamiento Académico.</li>
-                            <li>Nivelación Académica (Matemáticas y leguaje).</li>
+                            <li>Nivelación Académica (Matemáticas y lenguaje).</li>
                         </p>
                     </div>
                     {/* <div className='segundoDiv' style={{ marginTop:"1%", marginRight:"1%"}}><p>Dedicadas y enfocadas del disfrute en el proceso de apredizaje, garantizando así que los niños se sientan cómodos y con ganas de seguir aprendiendo.</p></div> */}

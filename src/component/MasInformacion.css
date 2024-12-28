@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.App-container {
+  background-image: url('../2.jpeg');
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: rgba(12, 8, 253, 0.562);
+  margin: 0%;
+  
+}
+
+.horario{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;;
+}
+
+label{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(15, 15, 15);
+  text-shadow: 0px 2px 4px rgb(111, 111, 111);
+}
+
+p{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(15, 15, 15);
+  text-shadow: 0px 2px 4px rgb(111, 111, 111);
+}
+
+.observaciones{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  padding: 2%;
+}
+
+.tamano{
+  width: 30%;
+  padding: 1.16%;
+}
+
+.img-data2{
+  width: 5%;
+}
+
+@media (max-width: 768px){
+  .img-data2{
+    width: 10%;
+  }
+}
